@@ -1,8 +1,8 @@
 import java.io.*;
 
-public class Prime_Or_Not_Given_By_PradeepGaru
+public class Prime_Or_Not_PositiveIntegerCheck
 {  	
-	static private boolean Prime_Or_Not_Given_By_PradeepGaru(int input)
+	static private boolean Prime_Or_Not_PositiveIntegerCheck(int input)
 	{
 			int currentRemainder;
 			boolean divisibleFLAG = false,
@@ -42,7 +42,7 @@ public class Prime_Or_Not_Given_By_PradeepGaru
 	public static void main(String args[])
 	{
 		System.out.print("\nEnter the positive whole number: ");
-		//boolean output = Prime_Or_Not_Given_By_PradeepGaru(Integer.parseInt(System.console().readLine()));
+		//boolean output = Prime_Or_Not_PositiveIntegerCheck(Integer.parseInt(System.console().readLine()));
 		//boolean output = isPrimeNumber(Integer.parseInt(System.console().readLine()));
 		//System.out.print("\nThe number is a Prime Number: " + output + "\n");
 
